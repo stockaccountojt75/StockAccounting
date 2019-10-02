@@ -207,6 +207,10 @@ public class FunctionLibrary
 		
 	}
 	
+	public static void t1()
+	{
+		System.out.println("t1 method");
+	}
 	
 	
 }
