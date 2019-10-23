@@ -9,7 +9,7 @@ public class PropertyFileUtil
 	public static String getValueForKey(String key) throws Throwable
 	{
 		Properties configProperties=new Properties();
-		FileInputStream fis=new FileInputStream("C:\\Users\\rafi.md\\workspace\\rafiMavenStock\\PropertiesFile\\Environment.properties");	
+		FileInputStream fis=new FileInputStream("C:\\Users\\muham\\git\\StockAccounting\\rafiMavenStock\\PropertiesFile\\Environment.properties");	
 		configProperties.load(fis);
 		
 		return configProperties.getProperty(key);

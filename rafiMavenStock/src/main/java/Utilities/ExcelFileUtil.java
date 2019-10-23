@@ -18,7 +18,7 @@ public class ExcelFileUtil
 	
 	public ExcelFileUtil() throws Throwable
 	{
-		FileInputStream fis=new FileInputStream("C:\\Users\\rafi.md\\workspace\\rafiMavenStock\\TestInputs\\InputSheet.xlsx");
+		FileInputStream fis=new FileInputStream("C:\\Users\\muham\\git\\StockAccounting\\rafiMavenStock\\TestInputs\\InputSheet.xlsx");
 		 wb=WorkbookFactory.create(fis);
 	}
 	
@@ -111,7 +111,7 @@ public class ExcelFileUtil
 			
 				}
 		
-		FileOutputStream fos=new FileOutputStream("C:\\Users\\rafi.md\\workspace\\rafiMavenStock\\TestOutput\\OutputSheet.xlsx");
+		FileOutputStream fos=new FileOutputStream("C:\\Users\\muham\\git\\StockAccounting\\rafiMavenStock\\TestOutput\\OutputSheet.xlsx");
 		wb.write(fos);
 		fos.close();
 	}

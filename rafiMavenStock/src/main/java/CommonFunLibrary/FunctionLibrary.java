@@ -41,7 +41,7 @@ public class FunctionLibrary
 		}else
 			if(PropertyFileUtil.getValueForKey("Browser").equalsIgnoreCase("chrome"))
 			{
-				System.setProperty("webdriver.chrome.driver", "C:\\Users\\rafi.md\\workspace\\rafiMavenStock\\executablefiles\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "C:\\Users\\muham\\git\\StockAccounting\\rafiMavenStock\\executablefiles\\chromedriver.exe");
 				driver=new ChromeDriver();
 			}else
 				if(PropertyFileUtil.getValueForKey("Browser").equalsIgnoreCase("ie"))
